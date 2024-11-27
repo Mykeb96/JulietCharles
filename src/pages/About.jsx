@@ -2,7 +2,7 @@ import IMAGES from "../assets/Images/Images";
 import "../styles/about.css";
 import { useEffect, useRef } from "react";
 
-import Resume from "../../public/Documents/Resume.pdf";
+// import Resume from "../../public/Documents/Resume.pdf";
 
 function About() {
 
@@ -48,7 +48,7 @@ function About() {
                 marketing strategies and captivating content to deliver her clients quantifiable success.
             </p>
 
-            <iframe 
+            {/* <iframe 
                 src={Resume} 
                 style={{
                     margin: 'auto', 
@@ -58,7 +58,9 @@ function About() {
                     marginBottom: '50px'
                 }}
                 id="resume"
-            />
+            /> */}
+
+            <img src={IMAGES.resume} alt="resume" id="resume" />
         </div>
     )
 }

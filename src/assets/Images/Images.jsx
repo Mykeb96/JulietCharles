@@ -15,7 +15,8 @@ const IMAGES = {
     funzone_1: new URL('../Images/funzone_1.png', import.meta.url).href,
     funzone_2: new URL('../Images/funzone_2.jpg', import.meta.url).href,
     funzone_3: new URL('../Images/funzone_3.png', import.meta.url).href,
-    funzone_4: new URL('../Images/funzone_4.png', import.meta.url).href
+    funzone_4: new URL('../Images/funzone_4.png', import.meta.url).href,
+    resume: new URL('../Images/resume.png', import.meta.url).href
 }  
 
 export default IMAGES;

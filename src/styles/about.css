@@ -21,6 +21,10 @@
     line-height: 1.5;
 }
 
+#resume {
+    margin-top: 50px;
+}
+
 @media (max-width: 865px) {
     #resume {
         width: 620px !important;
