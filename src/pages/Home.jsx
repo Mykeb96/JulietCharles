@@ -1,4 +1,4 @@
-import IMAGES from "../assets/Images/Images";
+import IMAGES from "../../public/static/images/Images";
 import "../styles/home.css";
 import { Link } from "react-router-dom";
 
