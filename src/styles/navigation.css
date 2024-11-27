@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 160px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#logo-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #14453D;
+    font-family: "Charm", cursive;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#linkedin-icon {
+    font-size: 2.5rem;
+    color: #007aff;
+}
+
+#services-button {
+    background-color: #14453D;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+}
+
+#navigation-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: red;
+}
+
+#navigation-links > * {
+    color: #14453D;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+#services-link {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1086px) {
+    #navigation {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 837px) {
+    #navigation {
+        /* gap: 15px; */
+        align-items: center;
+    }
+
+    #logo {
+        flex-direction: column;
+    }
+
+    #logo-text {
+        display: none;
+    }
+
+    #home-text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 611px) {
+    #navigation-links {
+        gap: 15px;
+    }
+
+    #navigation {
+        gap: 20px;
+    }
+}

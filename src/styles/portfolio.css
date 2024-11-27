@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fenty-beauty-campaign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fenty-beauty-campaign h2 {
+    color: #14453D;
+    font-size: 32px;
+    font-family: "EB Garamond", serif;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+#fenty-beauty-campaign-content {
+    color: #14453D;
+    font-size: 14.4px;
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    
+}
+
+#fenty-beauty-campaign-content > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#fenty-beauty-campaign-content > a {
+    font-size: 16px;
+    background-color: #14453D;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.carousel-button {
+    font-size: 4rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #14453D;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.carousel-image-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 450px;
+    /* height: fit-content; */
+}
+
+.carousel-image-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 621px;
+    /* height: fit-content; */
+}
+
+.carousel-image-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 576px;
+}
+
+.fenty-0 {
+    width: 100%;
+}
+
+.fenty-1 {
+    width: 55%;
+}
+
+.fenty-2 {
+    width: 55%;
+}
+
+.analytics-0 {
+    width: 100%;
+}
+
+.analytics-1 {
+    width: 55%;
+}
+
+#case-studies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#case-studies > h2 {
+    color: #14453D;
+    font-size: 32px;
+    font-family: "EB Garamond", serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#case-studies-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#case-studies-images > img {
+    width: 45%;
+}
+
+#funzone-designs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#funzone-designs > h2 {
+    color: #14453D;
+    font-size: 32px;
+    font-family: "EB Garamond", serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.funzone-0 {
+    width: 70%;
+}
+
+.funzone-1 {
+    width: 70%;
+}
+
+.funzone-2 {
+    width: 70%;
+}
+
+.funzone-3 {
+    width: 80%;
+}
+
+#portfolio-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #ECECE7;
+    width: 100%;
+    padding: 20px;
+}
+
+#portfolio-footer > span {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: #14453D;
+}
+
+.carousel-bottom-button {
+    font-size: 4rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #14453D;
+}
+
+#analytics-title {
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    font-size: 46px !important;
+    text-align: center;
+}
+
+
+@media (max-width: 981px) {
+    #case-studies-images {
+        flex-direction: column;
+    }
+
+    #case-studies-images > img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 919px) {
+    .carousel-button {
+        visibility: hidden;
+    }
+
+    .carousel-bottom-buttons {
+        visibility: visible !important;
+    }
+}
+
+@media (max-width: 807px) {
+    .analytics-0 {
+        width: 70%;
+    }
+
+    .analytics-1 {
+        width: 40%;
+    }
+
+    .fenty-0 {
+        width: 70%;
+    }
+
+    .fenty-1 {
+        width: 40%;
+    }
+
+    .fenty-2 {
+        width: 40%;
+    }
+
+    .carousel-image-container1 {
+        height: 315px;
+    }
+
+    .carousel-image-container2 {
+        height: 452px;
+    }
+    
+
+    #analytics-title {
+        font-size: 36px !important;
+        width: 50%;
+    }
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+#home {
+    /* height: 100dvh;
+    width: 100dvw; */
+}
+
+#home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    /* width: 610px; */
+    margin-left: 100px;
+}
+
+#success-image {
+    width: 900px;
+    height: 800px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+#home-text > h2 {
+    font-size: 56px;
+    color: #14453D;
+    font-weight: normal;
+    /* width: 710px; */
+    margin-bottom: 25px;
+}
+
+#start-here-button {
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #14453D;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 36px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#home-banner {
+    width: 100%;
+    background-color: #14453D;
+    height: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#home-banner > h3 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 32px;
+    font-family: "EB Garamond", serif;
+    line-height: 1.5;
+}
+
+#innovation-image {
+    height: 640px;
+    width: 480px;
+    border-radius: 12px;
+}
+
+#the-goods {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+#the-goods-title {
+    font-family: "Fira Sans", sans-serif;
+    color: #14453D;
+}
+
+#the-goods > div > h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #14453D;
+}
+
+#the-goods > div > p {
+    color: #14453D;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#the-goods-list > * {
+    color: #14453D;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    line-height: 2.0;
+}
+
+#about-us {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+#about-us-title {
+    font-family: "Fira Sans", sans-serif;
+    color: #14453D;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#about-us > div > h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #14453D;
+}
+
+#learn-more-button {
+    background-color: transparent;
+    color: #14453D;
+    border: 2px solid #14453D;
+    border-radius: 36px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#about-us > div > p {
+    color: #14453D;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#reviews-image {
+    height: 320px;
+    width: 480px;
+    border-radius: 12px;
+}
+
+#testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 40px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#testimonials-image {
+    height: 666px;
+    width: 1000px;
+    border-radius: 12px;
+}
+
+#testimonials-text > h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 54px;
+    font-weight: normal;
+    color: #14453D;
+    margin-top: 10px;
+}
+
+#testimonials-text > p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    color: #14453D;
+}
+
+#testimonial-card {
+    background-color: #ECECE7;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#testimonial-card > h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 26px;
+    font-weight: normal;
+    color: #14453D;
+}
+
+#testimonial-card > p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: #14453D;
+    margin-top: 20px;
+}
+
+@media (max-width: 1041px) {
+    #the-goods, #about-us {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 837px) {
+    #home-content {
+        flex-direction: column;
+        margin: 0;
+    }
+}

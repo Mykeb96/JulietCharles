@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+#services-title {
+    font-size: 42px;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-weight: normal;
+    color: #14453D;
+}
+
+#services-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#get-started h2 {
+    font-family: "EB Garamond", serif;
+    font-weight: normal;
+    font-size: 32px;
+    color: #14453D;
+}
+
+#get-started a {
+    background-color: #14453D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#services-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 629px;
+}
+
+
+#services-description p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    width: 85%;
+    color: #14453D;
+}
+
+#packages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#packages > h2 {
+    font-family: "EB Garamond", serif;
+    font-weight: normal;
+    font-size: 42px;
+    color: #14453D;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#package > h3 {
+    font-family: "EB Garamond", serif;
+    font-weight: normal;
+    font-size: 34px;
+    color: #14453D;
+    border: 1px solid #14453D;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#package {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.includes > h2 {
+    font-family: "EB Garamond", serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #14453D;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+.includes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.ideal-title {
+    font-weight: bold;
+    color: #14453D;
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.ideal-for {
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    color: #14453D;
+}
+
+.include-item {
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    color: #14453D;
+    margin-top: 10px;
+}
+
+@media (max-width: 1046px) {
+    #get-started > h2 {
+        text-align: center;
+    }
+
+    #package > h3 {
+        text-align: center;
+        width: fit-content;
+    }
+
+    .ideal-for {
+        text-align: center;
+    }
+}
