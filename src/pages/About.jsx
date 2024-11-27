@@ -2,7 +2,7 @@ import IMAGES from "../assets/Images/Images";
 import "../styles/about.css";
 import { useEffect, useRef } from "react";
 
-import Resume from "../assets/Documents/Resume.pdf";
+import Resume from "../../public/Documents/Resume.pdf";
 
 function About() {
 
