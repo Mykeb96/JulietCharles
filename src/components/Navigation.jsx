@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import IMAGES from "../../public/static/images/Images";
+import IMAGES from "../assets/Images/Images";
 import "../styles/navigation.css";
 import { FaLinkedin } from "react-icons/fa";
 

@@ -1,4 +1,4 @@
-import IMAGES from "../../public/static/images/Images";
+import IMAGES from "../assets/Images/Images";
 import "../styles/portfolio.css";
 import { useState } from 'react';
 
