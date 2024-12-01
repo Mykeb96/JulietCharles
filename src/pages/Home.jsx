@@ -2,6 +2,11 @@ import IMAGES from "../../public/Images";
 import "../styles/home.css";
 import { Link } from "react-router-dom";
 
+import success from "../../public/success.jpg";
+import innovation from "../../public/Innovation.jpg";
+import reviews from "../../public/Reviews.jpg";
+import testimonials from "../../public/testimonials.jpg";
+
 function Home() {
     return (
         <div id="home">
@@ -11,7 +16,7 @@ function Home() {
                     <Link to="/services" id="start-here-button">Start Here</Link>
                 </div>
 
-                <img src={IMAGES.success} alt="success" id="success-image" />
+                <img src={success} alt="success" id="success-image" />
             </div>
 
             <div id="home-banner">
@@ -19,7 +24,7 @@ function Home() {
             </div>
 
             <div id="the-goods">
-                <img src={IMAGES.innovation} alt="innovation" id="innovation-image"/>
+                <img src={innovation} alt="innovation" id="innovation-image"/>
                 <div>
                     <p id="the-goods-title">THE GOODS</p>
 
@@ -44,11 +49,11 @@ function Home() {
 
                     <Link to="/about" id="learn-more-button">Learn More</Link>
                 </div>
-                <img src={IMAGES.reviews} alt="reviews" id="reviews-image" />
+                <img src={reviews} alt="reviews" id="reviews-image" />
             </div>
 
             <div id="testimonials">
-                <img src={IMAGES.testimonials} alt="testimonials" id="testimonials-image" />
+                <img src={testimonials} alt="testimonials" id="testimonials-image" />
 
                 <div id="testimonials-text">
                     <h2>Testimonials</h2>

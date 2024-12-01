@@ -1,7 +1,8 @@
 import IMAGES from "../../public/Images";
 import "../styles/about.css";
 import { useEffect, useRef } from "react";
-
+import headshot from "../../public/headshot.jpg";
+import resume from "../../public/resume.png";
 // import Resume from "../../public/Documents/Resume.pdf";
 
 function About() {
@@ -15,7 +16,7 @@ function About() {
     return (
         <div id="about" ref={topRef}>
 
-            <img src={IMAGES.headshot} alt="headshot" id="headshot"/>
+            <img src={headshot} alt="headshot" id="headshot"/>
 
             <p>
                 Based out of Beaverton, Oregon, Juliet Charles is a Digital Marketing student 
@@ -60,7 +61,7 @@ function About() {
                 id="resume"
             /> */}
 
-            <img src={IMAGES.resume} alt="resume" id="resume" />
+            <img src={resume} alt="resume" id="resume" />
         </div>
     )
 }

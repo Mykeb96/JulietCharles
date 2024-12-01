@@ -2,6 +2,19 @@ import IMAGES from "../../public/Images";
 import "../styles/portfolio.css";
 import { useState } from 'react';
 
+import fenty_1 from "../../public/fenty_1.png";
+import fenty_2 from "../../public/fenty_2.png";
+import fenty_3 from "../../public/fenty_3.png";
+import analytics_1 from "../../public/calendar.png";
+import analytics_2 from "../../public/fenty_report.png";
+import funzone_1 from "../../public/funzone_1.png";
+import funzone_2 from "../../public/funzone_2.jpg";
+import funzone_3 from "../../public/funzone_3.png";
+import funzone_4 from "../../public/funzone_4.png";
+
+import hp_case from "../../public/hp_case.png";
+import bold_case from "../../public/bold_case.png";
+
 function Portfolio() {
 
     const [selectedFentyImage, setSelectedFentyImage] = useState(0);
@@ -9,21 +22,21 @@ function Portfolio() {
     const [selectedFunzoneImage, setSelectedFunzoneImage] = useState(0);
 
     const fentyImages = [
-        IMAGES.fenty_1,
-        IMAGES.fenty_2,
-        IMAGES.fenty_3
+        fenty_1,
+        fenty_2,
+        fenty_3
     ]
 
     const analyticsImages = [
-        IMAGES.analytics_1,
-        IMAGES.analytics_2
+        analytics_1,
+        analytics_2
     ]
 
     const funzoneImages = [
-        IMAGES.funzone_1,
-        IMAGES.funzone_2,
-        IMAGES.funzone_3,
-        IMAGES.funzone_4
+        funzone_1,
+        funzone_2,
+        funzone_3,
+        funzone_4
     ]
 
     function handleAnalyImageChange(direction) {
@@ -119,8 +132,8 @@ function Portfolio() {
             <div id="case-studies">
                 <h2>Case Studies</h2>
                 <div id="case-studies-images">
-                    <img src={IMAGES.hp_case} alt="hp_case" />
-                    <img src={IMAGES.bold_case} alt="bold_case" />
+                    <img src={hp_case} alt="hp_case" />
+                    <img src={bold_case} alt="bold_case" />
                 </div>
             </div>
 
