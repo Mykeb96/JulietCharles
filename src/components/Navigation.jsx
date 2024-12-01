@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
-import IMAGES from "../assets/Images/Images";
+// import IMAGES from "../../public/Images";
 import "../styles/navigation.css";
 import { FaLinkedin } from "react-icons/fa";
+import logo from "../../public/Logo.png";
 
 function Navigation() {
 
     return (
         <div id="navigation">
             <div id="logo">
-                <img src={IMAGES.logo} alt="logo" id="logo-image"/>
+                <img src={logo} alt="logo" id="logo-image"/>
                 <h2 id="logo-text">Charles Social Studios</h2>
             </div>
 
