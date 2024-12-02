@@ -239,7 +239,7 @@
     }
 
     #home-banner {
-        margin-top: 190px !important;
+        margin-top: 170px !important;
     }
 
     #innovation-image {
@@ -256,5 +256,9 @@
         /* height: 500px; */
         width: 95%;
         height: 95%;
+    }
+
+    #home-text {
+        margin-top: 60px;
     }
 }
