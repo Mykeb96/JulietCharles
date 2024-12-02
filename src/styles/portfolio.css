@@ -256,3 +256,10 @@
         width: 50%;
     }
 }
+
+@media (max-width: 518px) {
+    #funzone-designs > h2 {
+        width: 70%;
+        text-align: center;
+    }
+}
