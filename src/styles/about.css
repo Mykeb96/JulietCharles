@@ -23,6 +23,7 @@
 
 #resume {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 865px) {
@@ -40,5 +41,28 @@
     #resume {
         width: 520px !important;
         height: 600px !important;
+    }
+}
+
+@media (max-width: 518px) {
+    #headshot {
+        height: 500px;
+        width: 400px;
+    }
+
+    #about > p {
+        width: 90%;
+    }
+
+    #resume {
+        width: 99% !important;
+    }
+
+    .analytics-0 {
+        width: 50% !important;
+    }
+
+    .fenty-0 {
+        width: 50% !important;
     }
 }

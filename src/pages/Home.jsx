@@ -25,7 +25,7 @@ function Home() {
 
             <div id="the-goods">
                 <img src={innovation} alt="innovation" id="innovation-image"/>
-                <div>
+                <div id="the-goods-text">
                     <p id="the-goods-title">THE GOODS</p>
 
                     <h2>Created with Innovation and <br />Imagination in Oregon.</h2>
@@ -40,7 +40,7 @@ function Home() {
             </div>
 
             <div id="about-us">
-                <div>
+                <div id="about-us-text">
                     <p id="about-us-title">ABOUT US</p>
 
                     <h2>Charles Social Studios is a boutique <br />digital marketing agency specializing in <br />content strategy.</h2>

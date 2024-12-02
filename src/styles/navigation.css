@@ -107,3 +107,9 @@
         gap: 20px;
     }
 }
+
+@media (max-width: 518px) {
+    #navigation {
+        flex-direction: column;
+    }
+}

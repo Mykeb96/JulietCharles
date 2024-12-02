@@ -215,3 +215,46 @@
         margin: 0;
     }
 }
+
+@media (max-width: 518px) {
+    #the-goods-text {
+        width: 80%;
+    }
+
+    #about-us-text {
+        width: 90%;
+    }
+
+    #about-us-text > p {
+        width: 90% !important;
+    }
+
+    #home-text > h2 {
+        font-size: 42px;
+    }
+
+    #success-image {
+        /* height: 500px; */
+        display: none;
+    }
+
+    #home-banner {
+        margin-top: 95px !important;
+    }
+
+    #innovation-image {
+        /* height: 500px; */
+        display: none;
+    }
+
+    #reviews-image {
+        /* margin-top: 100px; */
+        display: none;
+    }
+
+    #testimonials-image {
+        /* height: 500px; */
+        width: 95%;
+        height: 95%;
+    }
+}
